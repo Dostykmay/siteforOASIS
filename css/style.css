@@ -1,0 +1,171 @@
+/* ТОЛЬКО ОБЩИЕ СТИЛИ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Avenir-Bold';
+    src: url('fonts/Avenir Next World Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir-Thin';
+    src: url('fonts/Avenir Next World Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir-Medium';
+    src: url('fonts/Avenir Next World Medium.ttf') format('truetype');
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* ШАПКА (общая для всех страниц) */
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 10%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-menu {
+    list-style-type: none;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 70px;
+    background-color: rgba(223, 93, 5, 0.9);
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(223, 93, 5, 0.9);
+    vertical-align: middle;
+    transition: all 0.3s ease; /* Плавная анимация */
+}
+
+.menu-button {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family: 'Avenir-Medium';
+}
+
+/* ЕДИНЫЙ СТИЛЬ ДЛЯ ВСЕХ ПУНКТОВ МЕНЮ ПРИ НАВЕДЕНИИ */
+.menu-item:hover {
+    background-color: rgba(255, 78, 3, 0.9);
+    transform: scale(1.1);
+    border-color: rgba(255, 78, 3, 0.9);
+}
+
+/* ПОДВАЛ (общий для всех страниц) */
+.footer {
+    background-color: rgb(79, 74, 74);
+    height: 250px;
+}
+
+.main-container-f {
+    height: 100%;
+    padding-left: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.information {
+    grid-column: 1;
+    align-self: center;
+    height: 200px;
+    width: 250px;
+}
+
+.logo-footer {
+    justify-self: end;
+    margin-right: 60px;
+    grid-column: 3;
+    object-fit: cover;   
+}
+
+.logo-footer img {
+    max-height: 270px;
+    max-width: 270px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.main-h1 {
+    font-family: 'Avenir-Bold';
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.contact {
+    font-family: 'Avenir-Medium';
+    color: rgb(218, 212, 212);
+    display: inline-block;
+    font-size: 20px;
+}
+
+/* ВЫПАДАЮЩИЙ СПИСОК (общий) */
+.container-list-pr {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+
+.list-program {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+}
+
+.list-program a {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Avenir-Medium';
+    text-decoration: none;
+    width: 150px;
+    display: block;
+    align-content: center;
+    height: 35px;
+    background-color: rgba(255, 78, 3, 0.9);
+    border-radius: 3px;
+    transition: all 0.2s ease; /* Плавность для элементов списка */
+}
+
+.container-list-pr:hover .list-program {
+    display: block;
+}
+
+.list-program a:hover {
+    transform: scale(1.1);
+    background-color: rgba(223, 93, 5, 0.9); /* Чуть темнее при наведении */
+}
+
+.selection-a {
+    line-height: 15px;
+}

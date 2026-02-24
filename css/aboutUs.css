@@ -1,0 +1,142 @@
+/* ПЕРВЫЙ БЛОК */
+.first-block {
+    height: 850px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.fon {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    filter: brightness(0.3);
+}
+
+.text {
+    position: absolute;
+    top: 60%;
+    left:52%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    height: 400px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.text h2{
+    display: inline-block;
+    width: 400px;
+}
+
+.oasis {
+    font-family: 'Avenir-Bold', sans-serif;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.mission {
+    font-family: 'Avenir-Thin';
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+
+.logo {
+    position: absolute;
+    z-index: 3;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    height: 200px;
+    filter: brightness(0.7);
+}
+
+
+.second-block{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(165, 90, 40);
+    padding-left: 90px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    gap: 20px;
+}
+
+.main-text h1{
+    color: rgb(225, 216, 216);
+    font-size: 60px;
+    font-family: 'Avenir-Bold';
+    margin-bottom: 40px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;  
+    padding-top: 40px;
+}
+.second-block p{
+    display: inline-block;
+    font-size: 'Avenir-Medium';
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    color: rgb(225, 216, 216);
+}
+
+.ul-text{
+    color: rgb(225, 216, 216);
+    font-size: 25px;
+    padding-left: 45px;
+}
+
+.ul-text li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.first{
+    margin: 0px;
+}
+
+.number-us{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(79, 74, 74);
+    height: 530px;
+    width: 100%;
+    flex: 1;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    padding: 30px 30px;
+}
+
+.number-us h2{
+    font-size: 35px;
+    color: white;
+}
+
+.number-us p{
+    font-size: 25px;
+}
+
+.ul-result{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+    padding-bottom: 5px;
+}

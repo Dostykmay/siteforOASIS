@@ -1,0 +1,61 @@
+.first-block {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    height: 650px;
+    background-color: rgb(112, 114, 115);
+    padding-left: 90px;
+    
+}
+
+.first-block img{
+    margin-top: 100px;
+    object-fit: cover;
+    width: 40%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px;
+    height: 500px;
+}
+
+.second-block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(165, 90, 40);
+    padding-left: 90px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.second-block h1{
+    color: rgb(225, 216, 216);
+    font-size: 60px;
+    font-family: 'Avenir-Bold';
+}
+
+.second-block p{
+    display: inline-block;
+    font-size: 'Avenir-Medium';
+    width: 100%;
+    height: 80%;
+    font-size: 25px;
+    color: rgb(225, 216, 216);
+}
+
+.ul-text{
+    color: rgb(225, 216, 216);
+    font-size: 25px;
+    padding-left: 45px;
+}
+
+.ul-text li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.first{
+    margin: 0px;
+}

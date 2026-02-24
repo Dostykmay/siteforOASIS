@@ -1,0 +1,86 @@
+/* ТОЛЬКО СТИЛИ ДЛЯ ГЛАВНОЙ СТРАНИЦЫ */
+
+/* ПЕРВЫЙ БЛОК */
+.first-block {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.fon {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    filter: brightness(0.3);
+}
+
+.text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.text h1{
+    padding-top: 70px;
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    width: 600px;
+    word-wrap: none;
+    font-family: 'Avenir-Bold';
+}
+
+/* ВТОРОЙ БЛОК */
+.second-block{
+    display: flex;
+    background-color: rgb(235, 235, 225);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-block1{
+    width: 900px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 30px;
+}
+
+.name-office{
+    font-size: 40px;
+    font-family: 'Avenir-Medium';
+    align-self: center;
+}
+
+.information-block-text{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.concret-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: solid 0.5px;
+    width: 650px;
+}
+
+.concret-block h2{
+    font-size: 20px;
+    font-family: 'Avenir-Medium';
+}
+
+.third-block{
+    height: 500px;
+}

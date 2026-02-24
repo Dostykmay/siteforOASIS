@@ -1,0 +1,85 @@
+/* ПЕРВЫЙ БЛОК */
+
+.first-block{
+    height: 800px;
+    width:100%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
+.tech-photo{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.2);
+    display: block;
+    position: relative;
+}
+
+.text-first-block{
+    top: 35%;
+    left: 35%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    width: 500px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.text-first-block h1{
+    font-family: 'Avenir-Bold';
+    font-size: 60px;
+    line-height: 1;
+    margin-left: -60px;
+    color: rgba(239, 233, 233, 0.6);
+    text-align: center;
+    margin-bottom: -6px;
+    /* transform: translate(100%, -450%); */
+}
+
+/* ВТОРОЙ БЛОК */
+
+.main-block{
+    background-color: rgba(223, 93, 5, 0.9);
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.main-block img{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    filter: brightness(0.7);
+    box-shadow: 10px 10px 10px;
+}
+
+.text-tech{
+    margin-top: 25px;
+}
+.text-tech h2{
+    color: rgb(228, 222, 222);
+    font-size: 60px;
+}
+
+.text-tech p{
+    font-size: 25px;
+    color: rgb(228, 222, 222);
+    display: inline-block;
+    width: 900px;
+}
+
+/* ОСТАЛЬНЫЕ БЛОКИ  */
+.third-block{
+    background-color: rgb(113, 117, 117);
+}
+

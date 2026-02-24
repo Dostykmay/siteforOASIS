@@ -1,0 +1,99 @@
+/* ТОЛЬКО СТИЛИ ДЛЯ ГЛАВНОЙ СТРАНИЦЫ */
+
+/* ПЕРВЫЙ БЛОК */
+.first-block {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(100, 100, 101);
+}
+
+.fon {
+    object-fit: cover;
+    width: 1500px;
+    height: 450px;
+    display: block;
+    margin-top: 150px;
+    filter: brightness(0.3);
+}
+
+.text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.first-block h1 {
+    font-family: 'Avenir-Bold';
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    filter: brightness(0.8);
+}
+
+.mission {
+    font-family: 'Avenir-Thin';
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+
+.logo {
+    position: absolute;
+    z-index: 3;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    height: 200px;
+    filter: brightness(0.6);
+}
+
+/* ВТОРОЙ СЕКТОР */
+.second-block{
+    background-color: rgba(223, 93, 5, 0.9);
+    padding: 30px 30px;
+}
+
+.second-block h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Avenir-Bold';
+}
+
+.second-block p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Avenir-Thin';
+}
+
+.ol-second-block{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ul-second-block li{
+    font-weight: bold;
+}
+
+.other-ul{
+    font-weight: normal;
+    text-decoration: none;
+    font-family: 'Avenir-Thin';
+    padding-left: 40px;
+}
